@@ -1,7 +1,7 @@
-from Shop_all_ex import Discount
+from Shop_all_ex import Shop
 print('Завдання F і Фінальний результат')
-shop=Discount('Сільпо','їжа','молоко,хліб,яйця')
-shop.describe_shop()
+all_store=Shop('Сільпо','їжа')
+all_store.describe_shop()
 
 
 

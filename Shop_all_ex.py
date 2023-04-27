@@ -12,6 +12,7 @@ class Shop():
         self.number_of_units=num
     def increment_number_of_units(self,num):
         self.number_of_units+=num
+
 shop=Shop('Mars','clothes')
 shop2=Shop('Nike','shoes')
 shop3=Shop('Adidas','clothes and shoes')
